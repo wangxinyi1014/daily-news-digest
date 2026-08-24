@@ -1,6 +1,25 @@
-# 📰 Daily News Digest
+# 📰 AI Briefing
+
+> Fork of [llqh111/daily-news-digest](https://github.com/llqh111/daily-news-digest). Renamed to `ai-briefing` and refined for resume-friendly presentation.
 
 Twice a day, automatically pull news from 20 global outlets → DeepSeek AI writes a deep-dive digest in Chinese → delivered to your WeChat and Telegram. Runs entirely on GitHub Actions for free — set it up once, then just read.
+
+## 📱 真实运行产物（每日 9:00 推送至微信）
+
+> 由本项目每天自动生成。以下是 2026-08-24 抓取的当日早报预览：
+
+![AI Briefing 微信推送示例](docs/wechat-preview.png)
+
+*导语 + 今日选稿决策表（带 AI 评分 1-10、标题中英对照、简明理由）—— 所有内容均由 DeepSeek 实时生成，零人工参与。*
+
+---
+
+## 本仓库相对上游的改进
+
+- ⏰ **改用 GitHub Actions 自带 cron** — 去掉原作者的外部 cron-job.org 依赖，少一个挂的点
+- 🌐 **新增中英双语开关** — 通过 `DIGEST_LANG=zh/en/bilingual` 运行时切换，无需改代码
+- 📖 **新增 5 步傻瓜部署指南** — 见 [部署指南.md](./部署指南.md)
+- 🔒 **修复 fork 自带历史记录导致的"今天已推过"误判** — 详见 commit 历史
 
 ## What it does
 

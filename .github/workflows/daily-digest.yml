@@ -2,12 +2,10 @@ name: 📰 Daily News Digest
 
 on:
   # ⏰ 定时调度（GitHub 自带 cron，无需外部 cron-job.org）：
-  #    北京时间 08:00 = UTC 00:00（晨报）
-  #    北京时间 20:00 = UTC 12:00（晚报）
+  #    北京时间 09:00 = UTC 01:00（每天早上推送一次）
   #    如需改时间，调整下面的 cron 即可（cron 使用 UTC 时区）。
   schedule:
-    - cron: '0 0 * * *'
-    - cron: '0 12 * * *'
+    - cron: '0 1 * * *'
 
   # 也支持在 GitHub 网页上手动触发（Actions → Run workflow）
   workflow_dispatch:

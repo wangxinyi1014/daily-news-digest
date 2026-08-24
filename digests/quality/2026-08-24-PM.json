@@ -1,0 +1,79 @@
+{
+  "total_items": 13,
+  "items_with_unsupported_numbers": 3,
+  "unsupported_ratio": 0.23076923076923078,
+  "items": [
+    {
+      "article_id": "a1_6c0d968c67062369e15c3fc1",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_b2758aebabbe6fc0775d284d",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_cc1e25f14176ef077cc1bb36",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        56.0
+      ]
+    },
+    {
+      "article_id": "a1_4cf28291ecf47904d76ac629",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_76c7de4e4f088eb76859bd1f",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_8bd292e8546a2aa4e632dbe0",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        15.0,
+        10.0
+      ]
+    },
+    {
+      "article_id": "a1_5f5f8a4c75f1f7c98f45089c",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_b9a1b39e2e6636b76810a4fb",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_6644b3a86135496fc05dc7a1",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_aa8c93c8a670d1feed307ced",
+      "has_unsupported_numbers": true,
+      "unsupported_list": [
+        15.0
+      ]
+    },
+    {
+      "article_id": "a1_a4d60550ee82c860f06a647b",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_5f09c41cacdabf5ba68f2ce2",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    },
+    {
+      "article_id": "a1_18e3dfa18435a7037af83e68",
+      "has_unsupported_numbers": false,
+      "unsupported_list": []
+    }
+  ]
+}

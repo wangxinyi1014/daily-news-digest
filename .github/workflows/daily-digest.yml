@@ -1,16 +1,15 @@
 name: 📰 Daily News Digest
 
 on:
-  # ⚠️ 唯一触发源 = cron-job.org（外部定时调用 workflow_dispatch）。
-  #    历史上 GitHub 自带 schedule 与 cron-job.org 同时在跑 → 同一班次被触发两次
-  #    → 微信收到两条。已移除 schedule，只保留 workflow_dispatch，调度交给 cron-job.org。
-  #
-  #    ⚠️ cron-job.org 调用时【不要】传 inputs.force=true：
-  #       force 会在 main.py 里短路掉 should_skip_session() 去重三层防线，
-  #       一旦 cron-job.org 重试/配多个任务就会重复推送。让去重当最后兜底。
-  #
-  #    若 cron-job.org 失效需临时恢复定时，可在此重新加回 schedule:（注意会与
-  #    cron-job.org 叠加，二选一）。也可在 GitHub 网页上手动点 workflow_dispatch。
+  # ⏰ 定时调度（GitHub 自带 cron，无需外部 cron-job.org）：
+  #    北京时间 08:00 = UTC 00:00（晨报）
+  #    北京时间 20:00 = UTC 12:00（晚报）
+  #    如需改时间，调整下面的 cron 即可（cron 使用 UTC 时区）。
+  schedule:
+    - cron: '0 0 * * *'
+    - cron: '0 12 * * *'
+
+  # 也支持在 GitHub 网页上手动触发（Actions → Run workflow）
   workflow_dispatch:
     inputs:
       force:

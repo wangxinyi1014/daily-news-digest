@@ -25,6 +25,14 @@ log = logging.getLogger(__name__)
 # 模块加载时一次性读取——保持与原 main.py 顶部行为一致
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 
+# 输出语言开关：zh（中文，默认）/ en（英文）/ bilingual（中英双语）
+DIGEST_LANG = os.getenv("DIGEST_LANG", "zh").strip().lower()
+LANG_RULES = {
+    "zh": "· 全程中文，专有名词首次出现可附英文原名。",
+    "en": "· Write the entire digest in English. Keep company/product names in their original form; add the Chinese name in parentheses when a Chinese entity first appears.",
+    "bilingual": "· 每条新闻【标题】和【核心事实】用中英双语输出（中文在前，英文翻译在后）；其余部分保持中文，专有名词保留英文原名。",
+}
+
 
 def _is_empty_section_placeholder(line: str) -> bool:
     """Discard model filler such as 'this batch has no candidate' before merging sections."""
@@ -73,7 +81,7 @@ def _build_system_prompt(is_batch: bool = False) -> str:
         "末行来源（不可省略）：> 📰 来源：媒体名（原文链接）\n"
         "\n"
         "【硬性要求】\n"
-        "· 全程中文，专有名词首次出现可附英文原名。\n"
+        + LANG_RULES.get(DIGEST_LANG, LANG_RULES["zh"]) + "\n"
         "· 三段式结构严格保持，点评要有信息增量和观点。\n"
         "· 每条「📰 来源」必须写明媒体名和原文链接，一条都不能省。\n"
         "· 仅单一来源的独家报道，在点评末尾注明「⚠️ 单一信源」。\n"

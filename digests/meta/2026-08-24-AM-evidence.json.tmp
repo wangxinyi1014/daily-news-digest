@@ -1,0 +1,312 @@
+{
+  "version": 1,
+  "date": "2026-08-24",
+  "session": "AM",
+  "items": [
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_ab26a1187ae4c7a54c96852f",
+      "headline": "Alishahryar1/free-claude-code",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "Independent open-source project.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-24T15:40:48.511105+08:00",
+          "content_sha256": "584133be987c015a5bf95847609aad846095d1684680c27f52c8ab0c57da066f",
+          "excerpt": "Independent open-source project.",
+          "sentence_hash": "4151e5ada6982a7648ab8674d52c2a0b2d02d018030536bf8ef08da0504b12a3",
+          "anchors": [
+            "open"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "- 50 ToS-friendly providers.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-24T15:40:48.511141+08:00",
+          "content_sha256": "584133be987c015a5bf95847609aad846095d1684680c27f52c8ab0c57da066f",
+          "excerpt": "- 50 ToS-friendly providers.",
+          "sentence_hash": "060e68cdb8dd9538b51398f2a3df63c9560644c3f17aa4931c5548522726e4ea",
+          "anchors": [
+            "ide"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "1.3B+ free tokens every month.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-24T15:40:48.511157+08:00",
+          "content_sha256": "584133be987c015a5bf95847609aad846095d1684680c27f52c8ab0c57da066f",
+          "excerpt": "1.3B+ free tokens every month.",
+          "sentence_hash": "d60b846cd6de40c93046358b38a7b9043f3692704c0c4d83d4c949020d504f2d",
+          "anchors": [
+            "free"
+          ]
+        },
+        {
+          "fact_id": "f4",
+          "text": "Use free, paid, subscription, and local models from one searchable UI without putting your account at risk.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-24T15:40:48.511177+08:00",
+          "content_sha256": "584133be987c015a5bf95847609aad846095d1684680c27f52c8ab0c57da066f",
+          "excerpt": "Use free, paid, subscription, and local models from one searchable UI without putting your account at risk.",
+          "sentence_hash": "0013f1ea39ec79abd6fcf573f303a6a4d865205ba8d3e375c603da05e58ee4d0",
+          "anchors": [
+            "model",
+            "you",
+            "free",
+            "one"
+          ]
+        },
+        {
+          "fact_id": "f5",
+          "text": "FCC follows provider terms and removes integrations if they stop being allowed.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-24T15:40:48.511194+08:00",
+          "content_sha256": "584133be987c015a5bf95847609aad846095d1684680c27f52c8ab0c57da066f",
+          "excerpt": "FCC follows provider terms and removes integrations if they stop being allowed.",
+          "sentence_hash": "33b110a59153f4d7a1d48a298b4f98d8dbedc1d4c48d2de95df07634d051c729",
+          "anchors": [
+            "ide"
+          ]
+        },
+        {
+          "fact_id": "f6",
+          "text": "- 9 coding agents.",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-24T15:40:48.511205+08:00",
+          "content_sha256": "584133be987c015a5bf95847609aad846095d1684680c27f52c8ab0c57da066f",
+          "excerpt": "- 9 coding agents.",
+          "sentence_hash": "277c9711311540f76d65a9c2ecd5e286687c50f0ba0084d6de3bfb159c44d6af",
+          "anchors": [
+            "agent"
+          ]
+        }
+      ],
+      "entities": [
+        "paste",
+        "shell",
+        "talk",
+        "proxy authentication",
+        "open free claude code",
+        "telegram",
+        "vs",
+        "ui",
+        "jet",
+        "optional",
+        "apply",
+        "after",
+        "seek harness",
+        "seek harness web",
+        "alishahryar",
+        "run",
+        "brains",
+        "model",
+        "muse code",
+        "codex",
+        "admin",
+        "cline",
+        "sonnet",
+        "click validate",
+        "applications",
+        "terminal",
+        "one",
+        "linux",
+        "code",
+        "deep",
+        "fable",
+        "keep",
+        "nvidia",
+        "claude",
+        "grok build",
+        "leave",
+        "start",
+        "agent",
+        "nim",
+        "open",
+        "claude code",
+        "free",
+        "rtk",
+        "not",
+        "windows power",
+        "codex app",
+        "work",
+        "fcc",
+        "discord",
+        "voice",
+        "opus",
+        "use",
+        "stream",
+        "haiku",
+        "you",
+        "hermes",
+        "independent",
+        "whisper",
+        "run claude code",
+        "api",
+        "url",
+        "anthropic",
+        "ide",
+        "create",
+        "on windows"
+      ],
+      "numbers": [
+        "90%"
+      ],
+      "dates": [],
+      "unknowns": [
+        "缺少明确时间"
+      ],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "GitHub Trending",
+          "url": "https://github.com/Alishahryar1/free-claude-code",
+          "canonical_url": null,
+          "hostname": "github.com",
+          "content_level": "fulltext",
+          "trust_tier": "secondary",
+          "captured_at": "2026-08-24T15:40:48.509128+08:00",
+          "content_sha256": "584133be987c015a5bf95847609aad846095d1684680c27f52c8ab0c57da066f"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 6,
+        "anchor_count": 66
+      },
+      "summary": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly) \n  \n   \n    \n    \n    \n        \n Quick Start · Providers · Clients · Integrations · Manage \n \n Independent open-source project. Not affiliated with or endorsed by Anthropic. Claude and Claude Code are trademarks of Anthropic.  \nWhat You Get \n \n 49 ToS-friendly providers. 1.3B+ free tokens every month. Use free, paid, subscription, and local m",
+      "category": "科技",
+      "published_at": "",
+      "why_relevant": "免费使用Claude Code，硬核福利",
+      "relevance_score": 9.0
+    },
+    {
+      "version": 1,
+      "id_scheme_version": 1,
+      "article_id": "a1_af5bcba27f1627c87cd6aa9f",
+      "headline": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "confirmed_facts": [
+        {
+          "fact_id": "f1",
+          "text": "23rd August 2026 - Link Blog Anthropic’s best AI model struggles to attract users as cheaper tools thrive (via) A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": - Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47b",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-24T15:40:48.511888+08:00",
+          "content_sha256": "bb3683c7cfa9fd47a8b3c03b5ba5b190b865a76b5c89ac20793bc29cf46bb0de",
+          "excerpt": "23rd August 2026 - Link Blog Anthropic’s best AI model struggles to attract users as cheaper tools thrive (via) A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": - Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47b",
+          "sentence_hash": "e4e5aa1e79d2a17936979d4c0483e9de98d217d59985f7cfb824dff3d406f8d7",
+          "anchors": [
+            "$65",
+            "$47",
+            "now",
+            "here",
+            "August 20"
+          ]
+        },
+        {
+          "fact_id": "f2",
+          "text": "\"It also told investors that it had 6,000 customers that spend $100,000 annually or more.\" - As for OpenAI, \"annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company’s performance after a sluggi",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-24T15:40:48.511932+08:00",
+          "content_sha256": "bb3683c7cfa9fd47a8b3c03b5ba5b190b865a76b5c89ac20793bc29cf46bb0de",
+          "excerpt": "\"It also told investors that it had 6,000 customers that spend $100,000 annually or more.\" - As for OpenAI, \"annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company’s performance after a sluggi",
+          "sentence_hash": "8214688e000f88a5cc05ee2e5e4b15b0b93731657484a974a21fcad101fc3338",
+          "anchors": [
+            "ft",
+            "$100,000 ",
+            "now",
+            "$40"
+          ]
+        },
+        {
+          "fact_id": "f3",
+          "text": "Here's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model: - Opus 4.8: 28.0% - Sonnet 4.6: 8.3% - Fable 5: 8.0% - Opus 4.6: 6.9%",
+          "source_id": "source:primary",
+          "captured_at": "2026-08-24T15:40:48.511974+08:00",
+          "content_sha256": "bb3683c7cfa9fd47a8b3c03b5ba5b190b865a76b5c89ac20793bc29cf46bb0de",
+          "excerpt": "Here's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model: - Opus 4.8: 28.0% - Sonnet 4.6: 8.3% - Fable 5: 8.0% - Opus 4.6: 6.9%",
+          "sentence_hash": "c28e30d3f5065d318a2c598f6541540d769ba09413d54d6cb8b8cdf39883b927",
+          "anchors": [
+            "28.0%",
+            "6.9%",
+            "8.0%",
+            "3.6%",
+            "3.5%",
+            "1.7%",
+            "ai",
+            "0.7%",
+            "1.0%",
+            "August 20",
+            "8.3%",
+            "1.3%"
+          ]
+        }
+      ],
+      "entities": [
+        "ft",
+        "haiku",
+        "recent",
+        "ai",
+        "sonnet",
+        "gpt",
+        "now",
+        "here",
+        "july",
+        "august",
+        "anthropic",
+        "qwen",
+        "fable",
+        "link blog\nanthropic",
+        "opus",
+        "ramp",
+        "conceptual",
+        "hugging face",
+        "open"
+      ],
+      "numbers": [
+        "28.0%",
+        "6.9%",
+        "8.0%",
+        "3.6%",
+        "$65",
+        "3.5%",
+        "1.7%",
+        "$47",
+        "$40",
+        "0.7%",
+        "1.0%",
+        "$100,000 ",
+        "8.3%",
+        "1.3%"
+      ],
+      "dates": [
+        "August 20"
+      ],
+      "unknowns": [],
+      "sources": [
+        {
+          "id": "source:primary",
+          "role": "primary",
+          "publisher": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+          "canonical_url": null,
+          "hostname": "simonwillison.net",
+          "content_level": "fulltext",
+          "trust_tier": "major_media",
+          "captured_at": "2026-08-24T15:40:48.511256+08:00",
+          "content_sha256": "bb3683c7cfa9fd47a8b3c03b5ba5b190b865a76b5c89ac20793bc29cf46bb0de"
+        }
+      ],
+      "coverage": {
+        "has_fulltext": true,
+        "has_multiple_sources": false,
+        "fact_count": 3,
+        "anchor_count": 34
+      },
+      "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive\nA few interesting numbers in this FT story gathered from \"people with knowledge of the matter\":\n\nAnthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more historic numbers here.\nAnthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. \"It also told investors that it had 6,000 customers that spend $100,000 annually or more.\"\nAs for Ope",
+      "category": "科技",
+      "published_at": 

@@ -1,1 +1,13 @@
-{"history": {}}
+{
+  "updated": "2026-08-24 15:46",
+  "retention_days": 30,
+  "history": {
+    "2026-08-24": [
+      "MengTo/threeui",
+      "wang2122/sprix-sage-router",
+      "sindresorhus/awesome",
+      "s1dashu/ip-as-logo-skill",
+      "public-apis/public-apis"
+    ]
+  }
+}
